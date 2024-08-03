@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: example
+  datasource:
+    url: jdbc:postgresql://localhost:5432/example_db
+    username: santana
+    password: santana
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: POSTGRESQL
